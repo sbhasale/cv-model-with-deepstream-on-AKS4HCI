@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
       - name: edgeai
-        image: "rgleanndeepstream.azurecr.io/edgeai:001-model-rtsp"
+        image: "rgleanndeepstream.azurecr.io/edgeai:001-nmodel-rtsp"
         ports:
         - containerPort: 8554
         resources:
